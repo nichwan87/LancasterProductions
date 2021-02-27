@@ -1,32 +1,75 @@
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
-    border-radius: 18px;
-    padding: 1%;
-    background-image: url(../images/Lock.JPG);
+    background-image: url(../images/ammo.JPG);
     background-size: cover;
     background-position: center;
+    height: 200%;
+    }
+
+h1 {
+    color: transparent;
+    position: absolute;
+}
+
+header nav ul {
+    list-style-type: none;
+    font-size: 100%;
+}
+
+header nav li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a:link {
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:honeydew;
+    size: 100%;
+  }
+
+a:visited {
+    text-decoration: none;
+    color: khaki;
+}  
+
+a:hover {
+    color: lime;
+}
+
+a:active {
+    color: papayawhip;
+    text-decoration: underline overline ;
 }
 
 #hdr-img {
-    display: block;
-    margin-left: auto;
+    display: inline-block;
+    padding: 20px;
+    width: 35%; 
+    }
+
+#hdnv {
+    display: inline-block;
+    position: absolute;
+    margin: 0;
+    margin-left: 50%;
     margin-right: auto;
-    width: 45%;
-    border-radius: 18px; 
+    top: 20%;
+    vertical-align: middle;
+    height: 20%;
+    transform: translate(-50%, -50%) 
     }
 
-#ctme {
-  display: block;
-  margin-top: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 12%;
-  border: 1px dashed #92B7FE;
-  border-radius: 18px;
-  padding: 1px;
-    }
+#ctimg {
+    width: 105%;
+}
 
+#about {
+    width: 70%;
+}
