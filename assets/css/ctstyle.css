@@ -1,0 +1,53 @@
+table {
+    width: 20%;
+    margin: 00px;
+    table-layout: auto;
+  }
+  
+  table,
+  td,
+  th {
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    border: dashed 3px #8AB7F8;
+    text-align: center;
+  }
+
+  section>form {
+    display: flex-box;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 5px;
+    position: absolute; 
+    margin-left: 70%; 
+    }
+
+section>h2 {
+    padding: 5px;
+}
+.details {
+    display: inline-block;
+    position: absolute;
+    margin-left: 0%;
+    margin-right: auto;
+    padding: 5px; 
+    }
+}
+
+#profim {
+    display: inline-block;
+    position: absolute;
+    margin-left: 0%;
+    margin-right: auto;
+    }
+
+#message {
+    border-radius: 10px; 
+    color: whitesmoke;
+    background-color: #333;
+    text-align: initial;
+    height: 90px;
+    }

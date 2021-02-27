@@ -31,16 +31,16 @@ a:link {
     text-decoration: none;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color:honeydew;
-    size: 100%;
+    font-size: 90%;
   }
 
 a:visited {
     text-decoration: none;
-    color: khaki;
+    color: #8AB7F8;
 }  
 
 a:hover {
-    color: lime;
+    color: rgb(81,238,10);
 }
 
 a:active {
@@ -48,6 +48,23 @@ a:active {
     text-decoration: underline overline ;
 }
 
+table {
+    width: 20%;
+    margin: 00px;
+    table-layout: auto;
+  }
+  
+  table,
+  td,
+  th {
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    border: dashed 3px #8AB7F8;
+    text-align: center;
+  }
 #hdr-img {
     display: inline-block;
     padding: 20px;
@@ -72,4 +89,37 @@ a:active {
 
 #about {
     width: 70%;
+}
+
+@media (max-width: 768px) {#hdr-img, #hdnv, #ctimg {
+    position: relative !important;
+    display: block !important;
+    margin: 10px; 
+}
+}
+
+@media (max-width: 768px) {header nav li {
+    display: inline !important;
+    margin-left: 30%;
+    margin-right: auto;
+    transform: translate(-50%, -50%) 
+}
+}
+
+@media (max-width: 768px) {#hdr-img{
+    width: 100%;
+}
+}
+
+@media (max-width: 768px) {#hdnv, #ctimg {
+    position: relative !important;
+    margin-top: 15%;
+    width: 00%;
+    margin-left: 40%;
+}
+}
+
+@media (max-width: 768px) {a:link {
+    font-size: 150% !important;
+}
 }
