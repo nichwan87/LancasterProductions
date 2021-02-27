@@ -208,6 +208,8 @@ table {
     position: relative;
     margin: 2%;
     padding: 1%;
+    color:khaki;
+    background-color: #333;
     border: 1px inset whitesmoke;
     border-radius: 5px;
     box-shadow:seashell;
