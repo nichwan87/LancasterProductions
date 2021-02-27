@@ -6,7 +6,7 @@
    }
 
 header {
-    background-image: url(../images/tank.JPG);
+    background-image: url(../images/Tank.JPG);
     background-size: cover;
     background-position: center;
     height: 200%;
@@ -126,7 +126,7 @@ table {
 }
 
 .drpdwnbtn {
-    background-image: url(../images/tank.JPG);
+    background-image: url(../images/Tank.JPG);
     background-size: cover;
     padding: 0;
     border: 2px outset whitesmoke;
