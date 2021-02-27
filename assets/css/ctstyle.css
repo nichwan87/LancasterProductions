@@ -26,13 +26,13 @@ table {
 
 section>h2 {
     padding: 5px;
-    margin-left: 7%;
+    margin-left: 11%;
     color:papayawhip;
 }
 .details {
     display: flex-box;
     flex-wrap: wrap;
-    margin-left: 2%;
+    margin-left: 6%;
     margin-right: auto;
     padding: 5px; 
     }
@@ -40,7 +40,7 @@ section>h2 {
 #profim {
     display: flex-box;
     flex-wrap: wrap;
-    margin-left: 6%;
+    margin-left: 10%;
     margin-right: auto;
     }
 
