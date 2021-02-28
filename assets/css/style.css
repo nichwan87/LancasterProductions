@@ -34,7 +34,7 @@ footer nav li {
         margin-right: auto;
         }
 
-div {
+main {
     background-image: url(../images/wall.JPG);
     background-size: cover;
     background-position: center;
@@ -47,6 +47,13 @@ h1 {
     position: absolute;
 }
 
+h2 {
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px; 
+    padding: 2%;   
+}
+
 h3 {
     
     color: whitesmoke;
@@ -54,6 +61,23 @@ h3 {
     font-size: 23px;
 }
 
+h4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-decoration: underline;
+    padding-right: 2%;
+}
+
+h5 {
+    display: inline-block;
+    color: whitesmoke;
+    padding-right: 2%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 header nav ul {
     list-style-type: none;
     font-size: 100%;
@@ -177,6 +201,70 @@ table {
     padding-right: 1.5%;
     }        
 
+.bodyhr {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1%;
+}    
+
+.hpmeimg {
+    width: 25%;
+}
+
+.wrplnk {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    }
+
+.application {
+    font-size: 12px;
+    color: whitesmoke;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 30%;
+    border: 1px inset whitesmoke;
+    border-radius: 8px;
+    width: 50%;
+    overflow: scroll;
+}     
+
+.apimg {
+    width:20%;
+}
+
+.aplst {
+    display: inline;
+    align-items: center;
+   }
+
+.otap{
+display: inline-block;
+flex-wrap: wrap;
+   }
+
+.aph {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}   
+
+#latestapp {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2%;
+    padding: 1%;
+    color:khaki;
+    background-color: #333;
+    border: 1px inset whitesmoke;
+    border-radius: 5px;
+    box-shadow:seashell;
+    width: 20%;
+    overflow-x: scroll;
+}
 #hdr-img {
     display: inline-block;
     padding: 20px;
@@ -204,7 +292,9 @@ table {
 }
 
 #details {
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     position: relative;
     margin: 2%;
     padding: 1%;
@@ -213,6 +303,27 @@ table {
     border: 1px inset whitesmoke;
     border-radius: 5px;
     box-shadow:seashell;
+    width: 20%;
+    overflow-x: scroll
+}
+
+#nwstap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 2 0;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+#nwsp {
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    flex-grow: 2 0;
+    width: 40%;
+    margin-left: 25%;
+    margin-right: auto;
 }
 
 @media (max-width: 768px) {header nav li {
