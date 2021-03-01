@@ -56,7 +56,7 @@ h2 {
 
 h3 {
     
-    color: whitesmoke;
+    color: rgb(0,113,197);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 23px;
 }
@@ -93,7 +93,7 @@ header nav li {
 a:link {
     text-decoration: none;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color:springgreen;
+    color: rgb(0,100,230);
     font-size: 90%;
     padding: 2%;
   }
@@ -131,7 +131,7 @@ table {
     }
 
 .mdl {
-    background-color: #333;
+    background-color: linen;
     border: 1px solid white;
     border-radius: 8px;
 }
@@ -258,7 +258,7 @@ flex-wrap: wrap;
     margin: 2%;
     padding: 1%;
     color:khaki;
-    background-color: #333;
+    background-color: linen;
     border: 1px inset whitesmoke;
     border-radius: 5px;
     box-shadow:seashell;
@@ -298,8 +298,8 @@ flex-wrap: wrap;
     position: relative;
     margin: 2%;
     padding: 1%;
-    color:khaki;
-    background-color: #333;
+    color:rgb(0,100,230);
+    background-color: linen;
     border: 1px inset whitesmoke;
     border-radius: 5px;
     box-shadow:seashell;

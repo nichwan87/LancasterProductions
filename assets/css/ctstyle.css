@@ -18,24 +18,41 @@ table {
   section>form {
     display: flex-box;
     flex-wrap: wrap;
-    color:papayawhip;
+    flex-direction: column;
+    color:rgb(0,100,230);
     padding: 5px;
-    position: absolute; 
+    position:absolute;
+    margin-top: 3%; 
     margin-left: 70%; 
+    background-color: linen;
+    border: 1px inset whitesmoke;
+    border-radius: 5px;
+    box-shadow:seashell;
+    width: 25%;
+    overflow-x: scroll
     }
 
 section>h2 {
     padding: 5px;
     margin-left: 11%;
-    color:papayawhip;
+    color:rgb(0,100,230);
 }
 .details {
     display: flex-box;
     flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+    margin: 2%;
     margin-left: 6%;
-    margin-right: auto;
-    padding: 5px; 
-    }
+    padding: 1%;
+    color:rgb(0,100,230);
+    background-color: linen;
+    border: 1px inset whitesmoke;
+    border-radius: 5px;
+    box-shadow:seashell;
+    width: 25%;
+    overflow-x: scroll
+}
 
 #profim {
     display: flex-box;
@@ -46,8 +63,8 @@ section>h2 {
 
 #message {
     border-radius: 10px; 
-    color: whitesmoke;
-    background-color: #333;
+    color: rgb(0,100,230);
+    background-color: linen;
     text-align: initial;
     height: 90px;
     }
