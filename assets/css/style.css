@@ -237,7 +237,7 @@ table {
 }
 
 .aph3 {
-    display: inline-flexbox;
+    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
