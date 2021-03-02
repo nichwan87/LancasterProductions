@@ -58,7 +58,7 @@
     <form>
         <br>
         <h3>Contact Us</h3>
-        <form>
+        <form action="mailto:nichwan_is@hotmail.com" method="post" enctype="multipart/form-data">
             <label for="fname">First name:</label><br>
             <input type="text" id="fname" placeholder="Given Name(s)"><br>
             <label for="lname">Last name:</label><br>
@@ -66,9 +66,10 @@
             <label for="email">Your Email:</label><br>
             <input type="text" id="email" placeholder="enter your @email address"><br>
             <label for="message">Your Message</label><br>
-            <input type="text" id="message" placeholder="enter your message here" size="35"><br>
-        <a href="mailto:nichwan_is@hotmail.com"><input type="submit" id="submitbtn" value="Submit"></a>
-          </form>
+            <textarea id="message" placeholder="enter your message here" rows="4" cols="50"></textarea><br>
+            <input type="submit" id="submitbtn" value="Submit"><br>
+            <input type="reset" id="submitbtn" value="Clear">
+        </form>
     </form> 
 </section>
 <br>
