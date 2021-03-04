@@ -145,19 +145,19 @@ table {
     width: 20%;
     margin: 0px;
     table-layout: fixed;
-  }
+}
   
-  table,
-  td,
-  th {
+table,
+td,
+th {
     border-collapse: collapse;
-  }
+}
   
-  th,
-  td {
+th,
+td {
     border: 5px #8AB7F8;
     text-align: center;
-    }
+}
 
 
 /*-Navigation Items*/
@@ -280,7 +280,7 @@ header nav li:hover {
 }
 
 .mystory:hover {
-background-color: seashell;
+    background-color: seashell;
 }
 
 #aboutme {
