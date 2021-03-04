@@ -501,6 +501,29 @@ background-color: seashell;
     justify-content: center;
 }
 
+@media (max-width: 768px) {#appsheader, .indxcd, .container, .deco, .indxcd2, .genapps, .deco2, #details, #contact, #contactme, #contact ul, #contact li   {
+    display: block !important;
+    position: relative !important;
+    }
+}
+
+@media (max-width: 768px) {.deco, .deco2 {
+    background-color: transparent !important;
+    display: block !important;
+    margin-top: 0;
+    text-align: start;
+}
+}
+@media (max-width: 768px) {.genapps, .indxcd2 {
+      width: 100%;
+      padding: 50px;
+      align-content: flex-start;
+}
+}
+
+@media (max-width: 768px) {.apimg{
+    width:100px;
+}}
 
 @media (max-width: 768px) {header nav ul {
     display:  block !important;

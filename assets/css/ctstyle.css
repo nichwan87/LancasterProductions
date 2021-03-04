@@ -65,6 +65,7 @@ section>h2 {
 
 
 @media (max-width: 768px) {section>form, .details, #profim {
-        display: inline;
+        display: block !important;
         position: relative;
+        border:none;
 }
