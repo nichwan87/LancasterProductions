@@ -501,6 +501,13 @@ background-color: seashell;
     justify-content: center;
 }
 
+
+.blgimg {
+    width:20%;
+    border-radius: 100px;
+    margin:2%;
+}
+
 @media (max-width: 768px) {#appsheader, .indxcd, .container, .deco, .indxcd2, .genapps, .deco2, #details, #contact, #contactme, #contact ul, #contact li   {
     display: block !important;
     position: relative !important;
