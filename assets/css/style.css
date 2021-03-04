@@ -6,7 +6,10 @@
     margin: 0;
     font-family: sans-serif;
    }
-
+ 
+html {
+    scroll-behavior: smooth;
+}
 /*Elements*/   
 header {
     background-image: url(../images/Tank.JPG);
@@ -206,6 +209,8 @@ header nav li:hover {
     cursor: grab;
     position: absolute;
 }
+
+
 
 .dropdown-content {
     display: none;
