@@ -4,62 +4,44 @@ table {
     margin: 10px;
     table-layout: auto;
     color:papayawhip;
-  }
+}
   
-  table, td, th {
+table, td, th {
     border-collapse: collapse;
-  }
+}
   
-  th, td {
+th, td {
     border: dashed 3px #8AB7F8;
     text-align: center;
-  }
+}
 
-  section>form {
-    display: flex-box;
-    flex-wrap: wrap;
-    flex-direction: column;
-    color:rgb(0,100,230);
-    padding: 5px;
-    position:absolute;
-    margin-top: 3%; 
-    margin-left: 70%; 
-    background-color: linen;
-    border: 1px inset whitesmoke;
-    border-radius: 5px;
-    box-shadow:seashell;
-    width: 25%;
-    overflow-x: scroll
-    }
 
 section>h2 {
-    padding: 5px;
-    margin-left: 11%;
+    padding: 2px;
     color:rgb(0,100,230);
 }
+
 .details {
-    display: flex-box;
+    display: inline-flex;
     flex-wrap: wrap;
     flex-direction: column;
-    position: relative;
-    margin: 2%;
-    margin-left: 6%;
-    padding: 1%;
+    align-content: center;
+    text-align: center;
     color:rgb(0,100,230);
-    background-color: linen;
+    padding: 10px;
+    margin: 0% auto 3% 15%; 
     border: 1px inset whitesmoke;
     border-radius: 5px;
     box-shadow:seashell;
-    width: 25%;
-    overflow-x: scroll
+    width: 60%;
 }
 
 #profim {
     display: flex-box;
     flex-wrap: wrap;
-    margin-left: 10%;
+    margin-left: 2%;
     margin-right: auto;
-    }
+}
 
 #message {
     border-radius: 10px; 
@@ -67,7 +49,7 @@ section>h2 {
     background-color: linen;
     text-align: initial;
     height: 90px;
-    }
+}
 
 #submitbtn {
     color: rgb(70,225,17);
@@ -80,7 +62,9 @@ section>h2 {
     border: .5px outset blanchedalmond;
     border-radius: 3px;
 }    
-    @media (max-width: 768px) {section>form, .details, #profim {
+
+
+@media (max-width: 768px) {section>form, .details, #profim {
         display: inline;
         position: relative;
-    }
+}
