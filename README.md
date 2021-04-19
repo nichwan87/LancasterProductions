@@ -2,6 +2,7 @@
 This is a website project dedicated to showcasing the learnings and abilities gained through the Monash Bootcamp Coding Course.
 
 # Description
+See an example of the deployed app: [App](./assets/images/App.jpg)
 This is a portfolio of my work. The porfolio will be updated as my skills and knowledge in coding increases.
 I have included some of my own photography for the graphics in this portfolio.
 Additional pages are included and can be found in the drop-down menu. These pages will be updated as the porfolio grows and matures.
